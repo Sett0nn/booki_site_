@@ -1,0 +1,48 @@
+/* width (768px à 1024)*/
+@media only screen and (max-width: 1024px) {
+  .filtres {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .filtre-title {
+    line-height: 60px;
+    font-size: 18px;
+  }
+  button.button.button-mobile {
+    font-size: 16px;
+    gap: 10px;
+  }
+  .icone-text {
+    margin: 30px 0px;
+  }
+  .hebergements-and-populaires {
+    flex-direction: column;
+    height: auto;
+    gap: 40px;
+  }
+  .hebergements-and-populaires section {
+    width: auto;
+  }
+
+  .populaires-cards {
+    display: flex;
+    gap: 25px;
+  }
+  .fa-solid.fa-chart-line {
+    font-size: 18px;
+  }
+  .activites-cards {
+    height: 270px;
+  }
+
+  .border-act {
+    height: 25%;
+  }
+
+  .card-content3 > img {
+    height: 75%;
+  }
+}
